@@ -64,7 +64,7 @@ a{
 }
 #home::before{
     content:"";
-    background-image: url("/images/spag.jpg");
+    background-image: url("./images/spag.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
