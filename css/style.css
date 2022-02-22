@@ -64,11 +64,7 @@ a{
 }
 #home::before{
     content:"";
-<<<<<<< HEAD
-    background-image: url("spag.jpg");
-=======
-    background-image: url("./images/spag.jpg");
->>>>>>> a04f20e7e34c2ae05bd9e716a6d2c3d4bbaba268
+    background-image: url("../images/spag.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
