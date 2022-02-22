@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.2rem;
+}
+/* Navbar */
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    opacity: 50%;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+#logo img{
+    height: 70px;
+    width: 98px;
+    border-radius: 100%;
+    opacity: 90%;
+}
+#logo{
+    margin: 10px 10px;
+    opacity: 5rem;
+}
+
+li{
+    /* padding: 25px; */
+    display:inline-block ;
+    list-style: none;
+    font-size: 1.2rem;
+    opacity: 0.5rem;
+}
+a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 100%;
+}
+#navbar ul a:hover{
+    color: black;
+    background-color: white;
+}
+/* Home section */
+#home{
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home::before{
+    content:"";
+    background-image: url("/images/spag.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+}
+.h-primary h1{
+    color: white;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Services Section  */
+#services{
+    margin: 34px;
+    display: flex;
+}
+.box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(249 249 249);
+}
+
+.box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#services h1{
+    color: black;
+}
+/* Client Section */
+#clients-section{
+    height: 334px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+}
+#clients img{
+    height:100px;
+}
+.clients-items{
+    padding: 50px;
+}
+footer{
+    text-align: center;
+}
+/* Utility Class */
+.h-primary{
+    font-size: 2.8rem;
+    color: white;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-size: 2rem;
+    padding: 12px;
+}
+.h-tertiary{
+    font-size: 1.5rem;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px ;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
